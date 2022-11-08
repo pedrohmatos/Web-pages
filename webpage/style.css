@@ -1,0 +1,238 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+.primeira {
+    background-image: url(images/primeira.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.primeira-texto {
+    color: #ffffff;
+    position: absolute;
+    left: 80px;
+    top: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.primeira-texto > h1 {
+    font-size: 100px;
+    width: 700px;
+}
+.primeira-texto > p {
+    font-size: 25px;
+    color: rgb(119, 113, 113);
+    font-weight: 700;
+}
+
+.segunda {
+    background-color:rgb(27, 27, 27);
+    height: 100vh;
+    /*
+    width: 80%;
+    margin: 0 auto 0 auto;
+    */
+}
+
+.separador-segunda {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:100px;
+    height: 852px;
+}
+
+.imagem02 {
+    width: 600px;
+}
+
+.texto1 {
+    width: 392px;
+}
+
+.texto1-titulo {
+    font-size: 50px;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 10px;
+    line-height: 1.15;
+}
+
+.texto1-paragrafo {
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.saiba-mais {
+    background-color: rgb(133, 132, 132);
+    border: none;
+    padding: 20px;
+    width: 200px;
+    cursor: pointer;
+}
+.saiba-mais:hover {
+    background-color: rgb(160, 159, 159);
+    transition: 0.8s;
+    box-shadow: 1px 2px 10px 5px rgba(0, 0, 0, 0.233);
+}
+.saiba-mais > a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;    
+}
+.seta {
+    color: #ffffff;
+}
+
+.terceira {
+    background-color: rgb(27, 27, 27);
+    height: 100vh;
+}
+
+.separador-terceira {
+    height: 852px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.imagem03 {
+    width: 500px;
+}
+
+.esquerda01 > h2 {
+    width: 300px;
+    font-size: 50px;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 50px;
+    line-height: 1.15;
+}
+
+.texto2 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.texto2-item-titulo {
+    font-size: 35px;
+    color: white;
+    margin-bottom: 7px;
+}
+.numero {
+    color: rgb(80, 80, 80);
+}
+
+.texto2-item-paragrafo {
+    width: 330px;
+    margin-left: 40px;
+    color: #ffffff;
+}
+
+.quarta {
+    background-color:#ffffff;
+    height: 100vh;
+}
+
+.texto3 {
+    width: 1200px;
+    padding: 150px 260px 80px 200px;
+}
+.texto3 >h2 {
+    font-size: 50px;
+}
+
+.ft-empresas {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.imagem-quadros {
+    width: 380px;
+    height: 300px;
+}
+.imagem-quadros:hover {
+    cursor: pointer;
+    box-shadow: 1px 3px 20px 2px rgba(0, 0, 0, 0.123);
+    width: 380.8px;
+    height: 300.8px;
+}
+
+.ft-empresa-quadros-legenda {
+    background-color: rgb(29, 29, 29);
+    padding: 15px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: -5px;
+}
+
+.quinta {
+    background-color: rgb(27, 27, 27);
+    height: 100vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto4 {
+    font-size: 40px;
+    width: 1000px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.texto4-autora {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    color: rgb(148, 148, 148);
+    font-weight: 700;
+}
+
+.sexta {
+    background-color: rgb(27, 27, 27);
+    height: 100vh;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.esquerda02-texto {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.direita01 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.direita01-item > h2 {
+    color: rgb(136, 136, 136);
+}
